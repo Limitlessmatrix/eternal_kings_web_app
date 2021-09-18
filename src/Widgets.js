@@ -11,11 +11,11 @@ function Widgets() {
         <div className="widgets" >
             <div className="widgets__input">
                 <SearchIcon className="widgets__searchIcon" />
-                <input placeholder="Search Twitter"  type="text" />
+                <input placeholder="Search Eternal's site"  type="text" />
             </div>
 
         <div className="widgets__widgetContainer">
-            <h2>What's happening</h2>
+            <h2>What's your next decree?</h2>
 
             <TwitterTweetEmbed tweetId={"1399787983209996289"} />
 

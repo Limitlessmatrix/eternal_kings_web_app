@@ -11,8 +11,8 @@ function TweetBox() {
         e.preventDefault();
 
         db.collection("posts").add({
-            displayName: "Mark Mark",
-            username: "Markkkk",
+            displayName: "Eternal King",
+            username: "Eternal",
             verified: true,
             text: tweetMessage,
             image: tweetImage,
@@ -30,7 +30,7 @@ function TweetBox() {
                 <Avatar src="https://www.pngfind.com/pngs/m/14-141135_download-mark-zuckerberg-png-image-mark-zuckerberg-transparent.png"/>
                     <input
                         onChange={e=> setTweetMessage(e.target.value)}
-                        value={tweetMessage} placeholder="What's happening?" type="text" />
+                        value={tweetMessage} placeholder="What do you Decree?" type="text" />
                 
                 </div>
                 <input
@@ -40,7 +40,7 @@ function TweetBox() {
                 <Button
                     onClick={sendTweet}
                     type="submit"
-                    className="tweetBox__tweetButton">Tweet</Button>
+                    className="tweetBox__tweetButton">Decree</Button>
             </form>
         </div>
     )

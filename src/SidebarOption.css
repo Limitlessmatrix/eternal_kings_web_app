@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding: 20px;
 }
 
 .sidebarOption:hover {
@@ -19,9 +20,13 @@
     font-weight: 800;
     font-size: 20px;
     margin-right: 20px;
+    padding: 15px;
 }
 
 .sidebarOption--active {
     color: var(--twitter-color);
 }
 
+.icon{
+    padding: 20px;
+}
