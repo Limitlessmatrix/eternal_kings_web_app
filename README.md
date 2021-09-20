@@ -22,6 +22,6 @@
 ## Author
 Jeremy Retamar Arrieta
 
+
 This project was cloned from Mert Çankaya's twitter clone. Then edited by me Jeremy.
 I mostly used the outlines and some animations that were already there. 
-

@@ -3,9 +3,6 @@ import React from "react";
 import "./Sidebar.css";
 
 import SidebarOption from "./SidebarOption";
-import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
-import BookmarkBorderIcon from "@material-ui/icons/BookmarkBorder";
-import ListAltIcon from "@material-ui/icons/ListAlt";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import {Button} from "@material-ui/core"
 import Crown from "./Crown";
