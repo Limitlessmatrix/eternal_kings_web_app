@@ -1,7 +1,6 @@
 
 import React from "react";
 import "./Sidebar.css";
-
 import SidebarOption from "./SidebarOption";
 import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import {Button} from "@material-ui/core"
@@ -19,12 +18,11 @@ function Sidebar() {
             <Crown className="sidebar__Crown" />
 
             <SidebarOption active Icon={GiMedievalPavilion} text="Home" />
-            <SidebarOption Icon={Gi3DGlasses} text="Explore" />
-            <SidebarOption Icon={GiWaxTablet} text="Notifications" />
-            <SidebarOption Icon={GiLetterBomb} text="Messages" />
-            <SidebarOption Icon={AiOutlineProfile} text="Lists" />
+            <SidebarOption Icon={GiWaxTablet} text="Guides and Walkthroughs" />
+            <SidebarOption Icon={GiLetterBomb} text="Feed" />
+            <SidebarOption Icon={AiOutlineProfile} text="About" />
             <SidebarOption Icon={GiMightyForce} text="Profile" />
-            <SidebarOption Icon={MoreHorizIcon} text="More" />
+            
 
             <Button variant="outlined" className="sidebar__tweet" fullWidth >Decree</Button>
 
@@ -34,4 +32,6 @@ function Sidebar() {
     )
 }
 
-export default Sidebar
+//           <SidebarOption Icon={Gi3DGlasses} text="Explore" />
+//           <SidebarOption Icon={MoreHorizIcon} text="More" />
+export default Sidebar;
